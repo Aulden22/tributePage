@@ -1,0 +1,65 @@
+html,body {
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    min-width: 260px;
+    color: white;
+}
+#main{
+    margin:30px auto;
+    padding:15px;
+    border:0px solid;
+    border-radius:5px;
+    background: #141414;
+}
+h1{
+  color: #5aa375;
+}
+#sub-heading{
+  color: #72cf94;
+}
+img{
+  max-width: 100%;
+  width: 800px;
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+  #img-caption{
+    margin:15px;
+    text-align: center;
+  }
+  #headline{
+    margin-top:50px;
+    text-align: center;
+    color: #5aa375;
+  }
+  ul{
+    max-width:550px;
+    margin:0 auto;
+    text-align:left;
+    color: #aba7a5;
+  }
+  li{
+    margin: 10px;
+  }
+  #johns-novels{
+    height: 200px;
+    width: 550px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .list-left{
+    height: 50%;
+    width: 50%;
+  }
+  .list-right{
+    height: 50%;
+    width: 50%;
+  }
+  blockquote{
+    font-style: italic;
+  }
+#tribute-link{
+    font-size: 38px;
+    font-weight: bolder;
+}
